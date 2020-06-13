@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/psinthorn/samuiarena/app"
 
 func main() {
-	fmt.Printf("Hello Samui Arena")
+	app.StartApp()
 }
