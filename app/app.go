@@ -19,6 +19,7 @@ func StartApp() {
 	port := configs.Server.PortRunning("8091")
 	router.LoadHTMLGlob("views/*/*.html")
 	router.Static("/assets", "./assets")
+	urlsMapping()
 	err := router.Run(":" + port)
 	if err != nil {
 		log.Fatal("ListenAndServe:"+port, err)
