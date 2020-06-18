@@ -1,18 +1,18 @@
 <html lang="en">
-  {{ template "layout-header.html" .}}
+{{ template "layout-header.html" .}}
 
-  <body>
-    {{ template "navbar-new.html" .}} {{ template "banner-top.html" .}}
-    {{template "weather-widget.html" .}} {{ template
-    "all-weather-condition.html" .}}
-    <main role="main" class="container-fluid">
-      {{ template "arena-01.html" .}} {{ template "arena-01-events.html" .}}
-      <br />
-      {{ template "arena-02.html" .}} {{ template "arena-02-events.html" .}}
-      <br />
-      {{ template "rate.html" .}} {{ template "reviews.html" .}}
-    </main>
-  </body>
+<body>
+  {{ template "navbar-new.html" .}} {{ template "banner-top.html" .}}
+  {{ template "weather-widget.html" .}} {{ template "all-weather-condition.html" .}}
+  <main role="main" class="container-fluid">
+    {{ template "arena-01.html" .}} {{ template "arena-01-events.html" .}}
+    <br />
+    {{ template "arena-02.html" .}} {{ template "arena-02-events.html" .}}
+    <br />
+    {{ template "rate.html" .}} {{ template "reviews.html" .}}
+  </main>
+</body>
 
-  {{ template "layout-footer.html" .}}
+{{ template "layout-footer.html" .}}
+
 </html>
