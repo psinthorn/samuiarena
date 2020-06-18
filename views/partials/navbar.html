@@ -1,62 +1,53 @@
 <!--navbar.html-->
-<!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary mb-5"> -->
+<div class="container">
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <!-- <a class="navbar-brand" href="/welcome/1">SA</a> -->
-  <div class="container">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarCollapse"
-      aria-controls="navbarCollapse"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
 
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/welcome/1">Welcome</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about/1">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact/1">Contact</a>
-        </li>
-      </ul>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarCollapse"
+    aria-controls="navbarCollapse"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+    <div class="row">
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/welcome/1">Welcome</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about/1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact/1">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-sm-2 col-md-2 col-lg-2 mx-auto">
+        <div style="height: auto; width: 80px;">
+          <a class="navbar-brand" href="/welcome/1"><img class="img-fluid" src="/assets/images/sa-logo-30x30.png" /></a>
+        </div>
+      </div>
+      
+      <div class="col-sm-5 col-md-5 col-lg-5">
+        <ul class="navbar-nav pull-right">
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+66857958000">
+              Call
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-
-    <div class="sa-logo">
-      <div class="navbar-nav">
-        <li class="nav-item">
-          <a class="brand nav-link" href="/welcome/1">SA<span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-    </div>
-    
-    <div class="sa-phone">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="tel:+66857958000">
-            <i class="fa fa-phone-square" aria-hidden="true" fa-4x></i></a>
-        </li>
-      </ul>
-    </div>
-
-  <!-- <form class="form-inline mt-2 mt-md-0">
-          <input
-            class="form-control mr-sm-2"
-            type="text"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form> -->
+</div>
 </nav>
-
