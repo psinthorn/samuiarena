@@ -1,6 +1,17 @@
 body {
   min-height: 75rem;
+  font-family: 'Montserrat', sans-serif;
   /* padding-top: 4.5rem; */
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bd-placeholder-img {
@@ -10,6 +21,10 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.intro-text {
+  font-family: 'Bebas Neue', cursive;
 }
 
 /* .navbar {
@@ -77,3 +92,12 @@ body {
     font-size: 3.5rem;
   }
 }
+
+@font-face {
+font-family: "DB Airy";
+src: url("/assets/fonts/");
+src: url("CustomFont.woff") format("woff"),
+url("CustomFont.otf") format("opentype"),
+url("CustomFont.svg#filename") format("svg");
+}
+
