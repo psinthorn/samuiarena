@@ -3,14 +3,16 @@
 
 <body>
   {{ template "navbar-new.html" .}} {{ template "banner-top.html" .}}
-  {{ template "weather-widget.html" .}} {{ template "all-weather-condition.html" .}}
-  <main role="main" class="container-fluid">
-    {{ template "arena-01.html" .}} {{ template "arena-01-events.html" .}}
-    <br />
-    {{ template "arena-02.html" .}} {{ template "arena-02-events.html" .}}
-    <br />
-    {{ template "rate.html" .}} {{ template "reviews.html" .}}
-  </main>
+  {{ template "all-weather-condition.html" .}}
+
+  {{ template "arena-one.html" .}}
+
+  {{ template "arena-two.html" .}}
+
+  {{ template "samui-arena-facilities.html" .}}
+
+  {{ template "rate.html" .}}
+
 </body>
 
 {{ template "layout-footer.html" .}}
