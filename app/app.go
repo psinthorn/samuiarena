@@ -17,8 +17,10 @@ func init() {
 
 func StartApp() {
 	port := configs.Server.PortRunning("8091")
+	// box := packr.NewBox("./views")
 	router.LoadHTMLGlob("views/*/*.html")
 	router.Static("/assets", "./assets")
+	// router.Static("/views", "./views")
 	urlsMapping()
 	err := router.Run(":" + port)
 	if err != nil {
