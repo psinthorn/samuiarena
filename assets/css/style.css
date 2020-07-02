@@ -1,3 +1,6 @@
+/* -light blue #0094da */
+/* -Dark Blue #0071bb */
+
 * {
   border-radius: 0 !important;
 }
@@ -173,6 +176,16 @@ a:link, a:visited, a:hover, a:active {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+}
+
+.page-footer {
+  background-color: #0071bb;
+  color: lightgray;
+}
+
+.footer-copyright {
+  background-color: #0071bb;
+  color: lightgray;
 }
 
 @font-face {
