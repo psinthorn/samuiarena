@@ -1,5 +1,7 @@
 /* -light blue #0094da */
 /* -Dark Blue #0071bb */
+/* Google Reviews bitly link https://bit.ly/3e2loil */
+/* Google Wirte Reviews bitly link https://bit.ly/2BxSuJx */
 
 * {
   border-radius: 0 !important;
@@ -86,6 +88,12 @@ html {
 
 .bg-light.scrolled {
   background: #0071bb !important;
+}
+
+.bg-google-reviews {
+  background-image: url("/assets/images/google-reviews-bg.png");
+  background-size: cover;
+ 
 }
 
 .text-primary {
